@@ -1,1 +1,1 @@
-# AskReddit Generator Bot
+# AskReddit Generator Bot by Yoonbo Cho
