@@ -17,12 +17,18 @@ What is for your you how theory 10 to thing do faking it reddit?
 <ul>
   <li>My ETL.py program handles the BackEnd of this Bot.
     <ul>
-      <li>I collect data from AskReddit using a Reddit API. </li>
+      <li>I extract data from AskReddit using a Reddit API. </li>
+      <li>I merge the new data to the old data from github, removing duplicates. </li>
+      <li>Using the new dataset, I train a Classification and Generation Model using TensorFlow. </li>
+      <li>I save and load the new machine learning models and the new merged dataset to github.</li>
     </ul>
   </li>
   <li>My Bot.py program handles the FrontEnd of this Bot.
     <ul>
-      <li>I collect data from AskReddit using a Reddit API. </li>
+      <li>I extract the trained machine learning models from github. </li>
+      <li>I generate n number of Askreddit question using the Generation Model.</li>
+      <li>I classify the list of questions depending on their quality.</li>
+      <li>I pick the best question then post that question on Askreddit using this Bot.</li>
     </ul>
   </li>
 </ul>
