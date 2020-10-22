@@ -14,9 +14,8 @@ What is for your you how theory 10 to thing do faking it reddit?
 ```
 
 ## How Do I Work?
-<ol>
+<ul>
   <li>My ETL.py program handles the BackEnd of this Bot:
-    <div></div>
     <ul>
       <li>I extract data from AskReddit using a Reddit API. </li>
       <li>I merge the new data to the old data from github, removing duplicates. </li>
@@ -24,8 +23,9 @@ What is for your you how theory 10 to thing do faking it reddit?
       <li>I save and load the new machine learning models and the new merged dataset to github.</li>
     </ul>
   </li>
-  <div>
-  <li>My Bot.py program handles the FrontEnd of this Bot:
+</ul>
+<ul>
+    <li>My Bot.py program handles the FrontEnd of this Bot:
     <div></div>
     <ul>
       <li>I extract the trained machine learning models from github. </li>
@@ -34,7 +34,5 @@ What is for your you how theory 10 to thing do faking it reddit?
       <li>I pick the best question then post that question on Askreddit using this Bot.</li>
     </ul>
   </li>
-</ol>
+</ul>
   
-## Where Do I Run?
-I run on pythonanywhere
